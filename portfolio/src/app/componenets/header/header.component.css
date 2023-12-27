@@ -3,10 +3,11 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
-    width: 100%;
+    height: 5rem;
+    width: 90%;
     padding-left: 5vw;
     padding-right: 5vw;
+    /*Make the header sticky*/
 }
 
 .header-light {
