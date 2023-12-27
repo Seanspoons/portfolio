@@ -1,1 +1,27 @@
-<p>header works!</p>
+<header class="header-light">
+    <div class="name">
+        <h1 class="name-text-light">Sean Wotherspoon</h1>
+    </div>
+    <div class="links">
+        <a class="projects-light">Projects</a>
+        <a class="education-light">Education</a>
+        <div class="mode-container-light" (click)="onModeClick(!lightMode)" *ngIf="lightMode; else darkMode">
+            <div id="dark-mode-icon-container">
+                <img class="mode-icon" src="../assets/img/light-icons/dark-mode-icon.png">
+            </div>
+            <div id="dark-mode-icon-container-hover">
+                <img class="mode-icon" src="../assets/img/hover/dark-mode-icon-hover.png">
+            </div>
+        </div>
+        <ng-template #darkMode>
+            <div class="mode-container-dark" (click)="onModeClick(!lightMode)">
+                <div id="light-mode-icon-container">
+                    <img class="mode-icon" src="../assets/img/dark-icons/light-mode-icon.png">
+                </div>
+                <div id="light-mode-icon-container-hover">
+                    <img class="mode-icon" src="../assets/img/hover/light-mode-icon-hover.png">
+                </div>
+            </div>
+        </ng-template>
+    </div>
+</header>
