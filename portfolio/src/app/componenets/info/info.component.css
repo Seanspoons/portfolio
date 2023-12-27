@@ -70,3 +70,40 @@
 .contact-button:hover {
     background-color: #919191;
 }
+
+@media only screen and (min-width: 1200px) and (min-height: 1000px) {
+
+    .intro-text {
+        font-size: 3rem;
+        margin-bottom: -1.5rem;
+    }
+
+    .name-text {
+        font-size: 4rem;
+    }
+
+    .profile-picture-container {
+        width: 21.6rem;
+        height: 24rem;
+        border-radius: 100vh;
+        align-self: center;
+        margin-top: 0rem;
+    }
+
+    #profile-picture-light {
+        width: 21rem;
+        height: 21rem;
+    }
+
+    .contacts {
+        margin-top: 4rem;
+    }
+
+    .contact-button {
+        width: 12rem;
+        height: 4rem;
+        margin-left: 3rem;
+        font-size: 1.5rem;
+    }
+
+}
