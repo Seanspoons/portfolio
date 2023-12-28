@@ -3,8 +3,8 @@
         <h1 class="name-text-light">Sean Wotherspoon</h1>
     </div>
     <div class="links">
-        <a class="projects-light">Projects</a>
-        <a class="education-light">Education</a>
+        <a class="projects-light" (click)="scrollToProjects()">Projects</a>
+        <a class="education-light" (click)="scrollToEducation()">Education</a>
         <div class="mode-container-light" (click)="onModeClick(!lightMode)" *ngIf="lightMode; else darkMode">
             <div id="dark-mode-icon-container">
                 <img class="mode-icon" src="../assets/img/light-icons/dark-mode-icon.png">

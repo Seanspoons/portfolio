@@ -82,6 +82,22 @@ header {
     height: 2rem;
 }
 
+.mode-container-dark:hover {
+    cursor: pointer;
+}
+
+.mode-container-light:hover {
+    cursor: pointer;
+}
+
+.projects-light:hover {
+    cursor: pointer;
+}
+
+.education-light:hover {
+    cursor: pointer;
+}
+
 #dark-mode-icon-container {
     display: flex;
 }
