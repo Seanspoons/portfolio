@@ -1,13 +1,19 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
+import { ColourModeService } from '../../services/colour-mode.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-info',
   standalone: true,
-  imports: [],
+  imports: [ CommonModule ],
   templateUrl: './info.component.html',
   styleUrl: './info.component.css'
 })
 export class InfoComponent {
+
+  lightMode: boolean = true;
+
+  constructor(private colourModeService: ColourModeService) {}
 
   onResumeClick(): void {
     /*const resumeURL = '';*/

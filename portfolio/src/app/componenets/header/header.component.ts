@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ScrollService } from '../../services/scroll.service';
+import { ColourModeService } from '../../services/colour-mode.service';
 
 @Component({
   selector: 'app-header',
@@ -12,21 +13,16 @@ import { ScrollService } from '../../services/scroll.service';
 export class HeaderComponent {
   lightMode: boolean;
 
-  constructor(private scrollService: ScrollService) {
+  constructor(private scrollService: ScrollService, private colourModeService: ColourModeService) {
     this.lightMode = true;
   }
 
   onModeClick(bool: boolean) {
     this.lightMode = bool;
-    if(this.lightMode) {
-      console.log("Light mode is on");
-    } else {
-      console.log("Dark mode is on");
-    }
+    this.colourModeService.changeMode(bool);
   }
 
   scrollToProjects() {
-    console.log("scroll to project clicked");
     this.scrollService.triggerScroll('info');
   }
 

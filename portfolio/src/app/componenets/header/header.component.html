@@ -1,11 +1,11 @@
-<header class="header-light">
+<header id="header" class="header-light">
     <div class="name">
-        <h1 class="name-text-light">Sean Wotherspoon</h1>
+        <h1 id="name-text" class="name-text-light">Sean Wotherspoon</h1>
     </div>
     <div class="links">
-        <a class="projects-light" (click)="scrollToProjects()">Projects</a>
-        <a class="education-light" (click)="scrollToEducation()">Education</a>
-        <div class="mode-container-light" (click)="onModeClick(!lightMode)" *ngIf="lightMode; else darkMode">
+        <a id="projects-link" class="projects-light" (click)="scrollToProjects()">Projects</a>
+        <a id="education-link" class="education-light" (click)="scrollToEducation()">Education</a>
+        <div id="mode-container" class="mode-container-light" (click)="onModeClick(!lightMode)" *ngIf="lightMode; else darkMode">
             <div id="dark-mode-icon-container">
                 <img class="mode-icon" src="../assets/img/light-icons/dark-mode-icon.png">
             </div>

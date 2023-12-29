@@ -10,50 +10,16 @@ header {
     /*Make the header sticky*/
 }
 
-.header-light {
-    background-color: #F3F3F3;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
 .name {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.name-text-light {
-    display: inline-block;
-    color: transparent;
-    background: linear-gradient(180deg, #000 34.38%, rgba(0, 0, 0, 0.00) 100%);
-    background-clip: text;
-    font-weight: 700;
-    font-size: 2rem;
-}
-
 .links {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-.projects-light {
-    color: black;
-    font-size: 1.5rem;
-    margin-right: 1rem;
-}
-
-.projects-light:hover {
-    color: #919191;
-}
-
-.education-light {
-    color: black;
-    font-size: 1.5rem;
-    margin-right: 1rem;
-}
-
-.education-light:hover {
-    color: #919191;
 }
 
 .mode-container-light {
@@ -90,20 +56,9 @@ header {
     cursor: pointer;
 }
 
-.projects-light:hover {
-    cursor: pointer;
-}
-
-.education-light:hover {
-    cursor: pointer;
-}
-
-#dark-mode-icon-container {
-    display: flex;
-}
-
-#dark-mode-icon-container-hover {
-    display: none;
+.mode-icon {
+    width: 2rem;
+    height: 2rem;
 }
 
 #light-mode-icon-container {
@@ -114,7 +69,94 @@ header {
     display: none;
 }
 
-.mode-icon {
+#dark-mode-icon-container {
+    display: flex;
+}
+
+#dark-mode-icon-container-hover {
+    display: none;
+}
+
+
+
+/* Light Mode */
+
+.header-light {
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.name-text-light {
+    display: inline-block;
+    color: transparent;
+    background: linear-gradient(180deg, #000 34.38%, rgba(0, 0, 0, 0.00) 100%);
+    background-clip: text;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.projects-light {
+    color: black;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.projects-light:hover {
+    color: #919191;
+    cursor: pointer;
+}
+
+.education-light {
+    color: black;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.education-light:hover {
+    color: #919191;
+    cursor: pointer;
+}
+
+.mode-container-light {
     width: 2rem;
     height: 2rem;
+}
+
+/* Dark Mode */
+
+.header-dark { 
+    background-color: #222222;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.name-text-dark {
+    display: inline-block;
+    color: transparent;
+    background: linear-gradient(180deg, #FFF 51.04%, rgba(0, 0, 0, 0.00) 99.99%, rgba(0, 0, 0, 0.00) 100%);
+    background-clip: text;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.projects-dark {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.projects-dark:hover {
+    color: #919191;
+}
+
+.education-dark {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.education-dark:hover {
+    color: #919191
+
 }
