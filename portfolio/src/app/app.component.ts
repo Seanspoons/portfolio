@@ -4,6 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './componenets/header/header.component';
 import { InfoComponent } from './componenets/info/info.component';
 import { ProjectsComponent } from './componenets/projects/projects.component';
+import { EducationComponent } from './componenets/education/education.component';
 import { ScrollService } from './services/scroll.service';
 
 @Component({
@@ -13,7 +14,8 @@ import { ScrollService } from './services/scroll.service';
       RouterOutlet,
       HeaderComponent,
       InfoComponent,
-      ProjectsComponent
+      ProjectsComponent,
+      EducationComponent
     ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
@@ -33,8 +35,7 @@ export class AppComponent {
   scrollToSection(sectionId: string) {
     const element = document.getElementById(sectionId);
     if (element) {
-      // Scroll the whole page a bit further down from the bottom of the element
-      const extraScroll = 50; // Adjust this value based on your preference
+      const extraScroll = 50;
       window.scrollTo({
         top: element.offsetTop + element.offsetHeight + extraScroll,
         behavior: 'smooth',
