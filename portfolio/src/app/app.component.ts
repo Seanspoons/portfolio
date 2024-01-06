@@ -37,11 +37,24 @@ export class AppComponent {
   scrollToSection(sectionId: string) {
     const element = document.getElementById(sectionId);
     if (element) {
-      const extraScroll = 50;
-      window.scrollTo({
-        top: element.offsetTop + element.offsetHeight + extraScroll,
-        behavior: 'smooth',
-      });
+      if(sectionId === "header") {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth',
+        });
+      } else if(sectionId === "info") {
+        const extraScroll = 35;
+        window.scrollTo({
+          top: element.offsetTop + element.offsetHeight - extraScroll,
+          behavior: 'smooth',
+        });
+      } else if(sectionId === "projects") {
+        const extraScroll = 35;
+        window.scrollTo({
+          top: element.offsetTop + element.offsetHeight - extraScroll,
+          behavior: 'smooth',
+        });
+      }
     }
   }
 

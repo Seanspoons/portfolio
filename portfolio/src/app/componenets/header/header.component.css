@@ -99,6 +99,14 @@ header {
     font-size: 2rem;
 }
 
+.name-text-light:hover {
+    display: inline-block;
+    color: transparent;
+    background: linear-gradient(180deg, #919191 34.38%, rgba(0, 0, 0, 0) 100%);
+    background-clip: text;
+    cursor: pointer;
+}
+
 .projects-light {
     color: black;
     font-size: 1.5rem;
@@ -125,6 +133,7 @@ header {
     width: 2rem;
     height: 2rem;
 }
+
 
 /* Dark Mode */
 

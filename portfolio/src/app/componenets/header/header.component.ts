@@ -17,6 +17,10 @@ export class HeaderComponent {
     this.lightMode = true;
   }
 
+  onNameClick() {
+    this.scrollService.triggerScroll('header');
+  }
+
   onModeClick(bool: boolean) {
     this.lightMode = bool;
     this.colourModeService.changeMode(bool);
@@ -27,7 +31,7 @@ export class HeaderComponent {
   }
 
   scrollToEducation() {
-    this.scrollService.triggerScroll('education');
+    this.scrollService.triggerScroll('projects');
   }
 
 }
