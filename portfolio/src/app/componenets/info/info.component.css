@@ -143,8 +143,48 @@
     background-color: #919191;
 }
 
-@media only screen and (min-width: 1200px) and (min-height: 1000px) {
+@media only screen and (max-width: 1350px) and (max-height: 600px) {
 
-    
+    .intro-text-light {
+        font-size: 2rem;
+    }
+    .intro-text-dark {
+        font-size: 2rem;
+    }
+
+    .name-text-light {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    .name-text-dark {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .profile-picture-container-light {
+        width: 18rem;
+        height: 18rem;
+        margin-bottom: 1rem;
+    }
+    .profile-picture-container-dark {
+        width: 18rem;
+        height: 18rem;
+        margin-bottom: 1rem;
+    }
+    #profile-picture {
+        width: 16rem;
+        height: 16rem;
+    }
+
+    .contact-button-light {
+        width: 11rem;
+        height: 3.5rem;
+        font-size: 1.3rem;
+    }
+    .contact-button-dark {
+        width: 11rem;
+        height: 3.5rem;
+        font-size: 1.3rem;
+    }
 
 }
