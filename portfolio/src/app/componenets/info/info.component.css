@@ -1,10 +1,10 @@
 .info-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
-    height: 86.91vh;
+    padding-top: 1rem;
+    z-index: 2;
 }
 
 .intro-container {
@@ -14,13 +14,13 @@
 
 .intro-text-light {
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: -1.5rem;
 }
 
 #profile-picture {
-    width: 18rem;
-    height: 18rem;
+    width: 20rem;
+    height: 20rem;
 }
 
 .contacts {
@@ -44,7 +44,8 @@
     background: linear-gradient(180deg, #000 34.38%, rgba(0, 0, 0, 0.00) 100%);
     background-clip: text;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 4rem;
+    margin-bottom: 3rem;
 }
 
 .profile-picture-container-light {
@@ -54,34 +55,40 @@
     align-items: center;
     background-color: white;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    width: 18rem;
-    height: 20rem;
+    width: 22rem;
+    height: 22rem;
     border-radius: 100vh;
     align-self: center;
     margin-top: -1.5rem;
+    margin-bottom: 3rem;
 }
 
 .contact-button-light {
     cursor: pointer;
-    font-size: 1.2rem;
-    width: 10rem;
-    height: 3rem;
+    font-size: 1.7rem;
+    width: 13rem;
+    height: 4rem;
     background-color: #F3F3F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     border: none;
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
 .contact-button-light:hover {
     background-color: #919191;
 }
 
+#email {
+    margin-right: 3rem;
+}
+
+
 /* Dark Mode */
 
 .intro-text-dark {
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: -1.5rem;
     color: white;
 }
@@ -92,7 +99,8 @@
     background: linear-gradient(180deg, #FFF 51.04%, rgba(0, 0, 0, 0.00) 99.99%, rgba(0, 0, 0, 0.00) 100%);
     background-clip: text;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 4rem;
+    margin-bottom: 3rem;
 }
 
 .profile-picture-container-dark {
@@ -102,24 +110,25 @@
     align-items: center;
     background-color: #222222;
     /*box-shadow: 0px 4px 4px 0px rgba(132, 132, 132, 0.25);*/
-    width: 18rem;
-    height: 20rem;
+    width: 22rem;
+    height: 22rem;
     border-radius: 100vh;
     align-self: center;
     margin-top: -1.5rem;
+    margin-bottom: 3rem;
 }
 
 .contact-button-dark {
     cursor: pointer;
-    font-size: 1.2rem;
-    width: 10rem;
-    height: 3rem;
+    font-size: 1.7rem;
+    width: 13rem;
+    height: 4rem;
     background-color: #222222;
     color: white;
     /*box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);*/
     border-radius: 20px;
     border: none;
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
 #light-name {
@@ -136,37 +145,6 @@
 
 @media only screen and (min-width: 1200px) and (min-height: 1000px) {
 
-    .intro-text {
-        font-size: 3rem;
-        margin-bottom: -1.5rem;
-    }
-
-    .name-text {
-        font-size: 4rem;
-    }
-
-    .profile-picture-container {
-        width: 21.6rem;
-        height: 24rem;
-        border-radius: 100vh;
-        align-self: center;
-        margin-top: 0rem;
-    }
-
-    #profile-picture-light {
-        width: 21rem;
-        height: 21rem;
-    }
-
-    .contacts {
-        margin-top: 4rem;
-    }
-
-    .contact-button {
-        width: 12rem;
-        height: 4rem;
-        margin-left: 3rem;
-        font-size: 1.5rem;
-    }
+    
 
 }
