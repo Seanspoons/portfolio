@@ -29,7 +29,6 @@ export class AppComponent {
 
   ngOnInit() {
     this.scrollService.scroll$.subscribe((sectionId) => {
-      console.log('Scrolling to:', sectionId);
       this.scrollToSection(sectionId);
     });
   }

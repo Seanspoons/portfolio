@@ -143,6 +143,23 @@ export class ColourModeService {
       location!.classList.add('location-dark');
       degree!.classList.add('degree-dark');
 
+
+      /* Footer */
+      const breakLine = document.getElementById('break');
+      const footerTitle = document.getElementById('footer-title');
+      const footerEmail = document.getElementById('footer-email');
+      const footerLinkedin = document.getElementById('footer-linkedin');
+
+      breakLine!.classList.remove('break-light');
+      footerTitle!.classList.remove('footer-title-light');
+      footerEmail!.classList.remove('contact-light');
+      footerLinkedin!.classList.remove('contact-light');
+
+      breakLine!.classList.add('break-dark');
+      footerTitle!.classList.add('footer-title-dark');
+      footerEmail!.classList.add('contact-dark');
+      footerLinkedin!.classList.add('contact-dark');
+
       this.lightMode = bool;
     } else {
 
@@ -275,6 +292,23 @@ export class ColourModeService {
       dateTitle!.classList.add('date-light');
       location!.classList.add('location-light');
       degree!.classList.add('degree-light');
+
+
+      /* Footer */
+      const breakLine = document.getElementById('break');
+      const footerTitle = document.getElementById('footer-title');
+      const footerEmail = document.getElementById('footer-email');
+      const footerLinkedin = document.getElementById('footer-linkedin');
+
+      breakLine!.classList.remove('break-dark');
+      footerTitle!.classList.remove('footer-title-dark');
+      footerEmail!.classList.remove('contact-dark');
+      footerLinkedin!.classList.remove('contact-dark');
+
+      breakLine!.classList.add('break-light');
+      footerTitle!.classList.add('footer-title-light');
+      footerEmail!.classList.add('contact-light');
+      footerLinkedin!.classList.add('contact-light');
 
       this.lightMode = bool;
     }

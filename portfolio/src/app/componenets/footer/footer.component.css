@@ -65,5 +65,17 @@
 }
 
 @media only screen and (max-width: 1550px) {
+    .footer-title-light {
+        font-size: 2rem;
+    }
+    .footer-title-dark {
+        font-size: 2rem;
+    }
 
+    .contact-light {
+        font-size: 1.2rem;
+    }
+    .contact-dark {
+        font-size: 1.2rem;
+    }
 }
