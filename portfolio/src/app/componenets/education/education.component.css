@@ -65,13 +65,13 @@
 
 .school-title-light {
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     width: 50%;
 }
 
 .date-light {
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     width: 50%;
     text-align: end;
 }
@@ -79,10 +79,12 @@
 .location-light {
     margin-top: -0.4rem;
     font-style: italic;
+    font-size: 1.1rem;
 }
 
 .degree-light {
     margin-top: 1.1rem;
+    font-size: 1.1rem;
 }
 
 /* Dark Mode */
@@ -114,14 +116,14 @@
 
 .school-title-dark {
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     width: 50%;
     color: white;
 }
 
 .date-dark {
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     width: 50%;
     text-align: end;
     color: white;
@@ -130,10 +132,52 @@
 .location-dark {
     margin-top: -0.4rem;
     font-style: italic;
+    font-size: 1.1rem;
     color: white;
 }
 
 .degree-dark {
     margin-top: 1.1rem;
+    font-size: 1.1rem;
     color: white;
+}
+
+@media only screen and (max-width: 1550px) {
+    
+    .school-light {
+        width: 64rem;
+        height: 22rem;
+    }
+    .school-dark {
+        width: 64rem;
+        height: 22rem;
+    }
+
+    .school-title-light {
+        font-size: 1.3rem;
+    }
+    .school-title-dark {
+        font-size: 1.3rem;
+    }
+
+    .date-light {
+        font-size: 1.3rem;
+    }
+    .date-dark {
+        font-size: 1.3rem;
+    }
+
+    .location-light {
+        font-size: 1rem;
+    }
+    .location-dark {
+        font-size: 1rem;
+    }
+
+    .degree-light {
+        font-size: 1rem;
+    }
+    .degree-dark {
+        font-size: 1rem;
+    }
 }
