@@ -128,21 +128,32 @@
 
 .project-title-light {
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     width: 65%;
 }
 
 .project-desc-trs-light {
-    margin-top: 1rem;
+    margin-top: 2rem;
+    font-size: 1.1rem;
 }
 
 .project-desc-light {
-    margin-top: -0.4rem;
+    margin-top: -0.2rem;
+    font-size: 1.1rem;
 }
 
 .technologies-light {
     font-weight: 700;
     font-style: italic;
+    font-size: 1.1rem;
+    margin-top: 6rem;
+}
+
+.technologies-light-trs {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-top: 5.3rem;
 }
 
 /* Dark Mode */
@@ -174,23 +185,87 @@
 
 .project-title-dark {
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     width: 65%;
     color: white;
 }
 
 .project-desc-trs-dark {
-    margin-top: 1rem;
+    margin-top: 2rem;
+    font-size: 1.1rem;
     color: white;
 }
 
 .project-desc-dark {
-    margin-top: -0.4rem;
+    margin-top: -0.2rem;
+    font-size: 1.1rem;
     color: white;
 }
 
 .technologies-dark {
     font-weight: 700;
     font-style: italic;
+    font-size: 1.1rem;
+    margin-top: 6rem;
     color: white;
+}
+
+.technologies-dark-trs {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-top: 5.3rem;
+    color: white;
+}
+
+@media only screen and (max-width: 1550px) {
+    .project-light {
+        width: 20rem;
+        height: 33rem;
+    }
+    .project-dark {
+        width: 20rem;
+        height: 33rem;
+    }
+
+    .project-title-light {
+        font-size: 1.3rem;
+    }
+    .project-title-dark {
+        font-size: 1.3rem;
+    }
+
+    .project-desc-trs-light {
+        margin-top: 1.4rem;
+        font-size: 1rem;
+    }
+    .project-desc-trs-dark {
+        margin-top: 1.4rem;
+        font-size: 1rem;
+    }
+    .project-desc-light {
+        margin-top: -0.4rem;
+        font-size: 1rem;
+    }
+    .project-desc-dark {
+        margin-top: -0.4rem;
+        font-size: 1rem;
+    }
+
+    .technologies-light-trs {
+        font-size: 1rem;
+        margin-top: 3rem;
+    }
+    .technologies-dark-trs {
+        font-size: 1rem;
+        margin-top: 3rem;
+    }
+    .technologies-light {
+        font-size: 1rem;
+        margin-top: 3.4rem;
+    }
+    .technologies-dark {
+        font-size: 1rem;
+        margin-top: 3.4rem;
+    }
 }

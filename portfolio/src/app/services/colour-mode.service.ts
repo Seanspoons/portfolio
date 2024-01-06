@@ -96,7 +96,7 @@ export class ColourModeService {
       pDesc1!.classList.remove('project-desc-trs-light');
       pDesc2!.classList.remove('project-desc-light');
       pDesc3!.classList.remove('project-desc-light');
-      tech1!.classList.remove('technologies-light');
+      tech1!.classList.remove('technologies-light-trs');
       tech2!.classList.remove('technologies-light');
       tech3!.classList.remove('technologies-light');
 
@@ -110,7 +110,7 @@ export class ColourModeService {
       pDesc1!.classList.add('project-desc-trs-dark');
       pDesc2!.classList.add('project-desc-dark');
       pDesc3!.classList.add('project-desc-dark');
-      tech1!.classList.add('technologies-dark');
+      tech1!.classList.add('technologies-dark-trs');
       tech2!.classList.add('technologies-dark');
       tech3!.classList.add('technologies-dark');
       linkImg1!.src = '../assets/img/dark-icons/link-icon-dark.png';
