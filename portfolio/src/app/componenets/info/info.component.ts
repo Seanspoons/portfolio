@@ -16,7 +16,8 @@ export class InfoComponent {
   constructor(private colourModeService: ColourModeService) {}
 
   onResumeClick(): void {
-    /*const resumeURL = '';*/
+    const resumePath = '../assets/documents/Resume.pdf';
+    window.open(resumePath, '_blank');
   }
 
   onGitHubClick(): void {
@@ -30,7 +31,9 @@ export class InfoComponent {
   }
 
   onEmailClick(): void {
-    /*const emailURL = '';*/
+    const recipientEmail = 'seangwotherspoon3@gmail.com';
+    var mailtoURI = 'mailto:' + recipientEmail
+    window.location.href = mailtoURI;
   }
 
 }

@@ -10,7 +10,9 @@ import { Component } from '@angular/core';
 export class FooterComponent {
 
   onEmailClick(): void {
-
+    const recipientEmail = 'seangwotherspoon3@gmail.com';
+    var mailtoURI = 'mailto:' + recipientEmail
+    window.location.href = mailtoURI;
   }
 
   onLinkedInClick(): void {
