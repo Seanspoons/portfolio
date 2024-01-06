@@ -143,10 +143,140 @@ export class ColourModeService {
       location!.classList.add('location-dark');
       degree!.classList.add('degree-dark');
 
-
       this.lightMode = bool;
     } else {
 
+      /* Header */
+      const header = document.getElementById('header');
+      const nameText1 = document.getElementById('name-text');
+      const projectsLink = document.getElementById('projects-link');
+      const educationLink = document.getElementById('education-link');
+      
+      header!.classList.remove('header-dark');
+      nameText1!.classList.remove('name-text-dark');
+      projectsLink!.classList.remove('projects-dark');
+      educationLink!.classList.remove('education-dark');
+
+      header!.classList.add('header-light');
+      nameText1!.classList.add('name-text-light');
+      projectsLink!.classList.add('projects-light');
+      educationLink!.classList.add('education-light');
+
+
+      /* Body */
+      const rootBody = document.getElementById('root-body');
+
+      rootBody!.classList.remove('body-dark');
+
+
+      /* Info */
+      const introText = document.getElementById('intro-text');
+      const lightName = document.getElementById('light-name');
+      const darkName = document.getElementById('dark-name');
+      const profilePictureContainer = document.getElementById('profile-picture-container');
+      const profileImage = document.getElementById('profile-picture') as HTMLImageElement;
+      const resumeButton = document.getElementById('resume');
+      const githubButton = document.getElementById('github');
+      const linkedinButton = document.getElementById('linkedin');
+      const emailButton = document.getElementById('email');
+
+      introText!.classList.remove('intro-text-dark');
+      darkName!.style.display = 'none';
+      profilePictureContainer!.classList.remove('profile-picture-container-dark');
+      resumeButton!.classList.remove('contact-button-dark');
+      githubButton!.classList.remove('contact-button-dark');
+      linkedinButton!.classList.remove('contact-button-dark');
+      emailButton!.classList.remove('contact-button-dark');
+
+      introText!.classList.add('intro-text-light');
+      lightName!.style.display = 'flex';
+      profilePictureContainer!.classList.add('profile-picture-container-light');
+      profileImage!.src = '../assets/img/profile-picture.png';
+      resumeButton!.classList.add('contact-button-light');
+      githubButton!.classList.add('contact-button-light');
+      linkedinButton!.classList.add('contact-button-light');
+      emailButton!.classList.add('contact-button-light');
+
+
+      /* Projects */
+      const projectTitle = document.getElementById('ph-title');
+      const project1 = document.getElementById('trs-project');
+      const project2 = document.getElementById('yelp-project');
+      const project3 = document.getElementById('n-puzzle-solver-project');
+      const pTitle1 = document.getElementById('p-title1');
+      const pTitle2 = document.getElementById('p-title2');
+      const pTitle3 = document.getElementById('p-title3');
+      const pDesc1 = document.getElementById('desc1');
+      const pDesc2 = document.getElementById('desc2');
+      const pDesc3 = document.getElementById('desc3');
+      const tech1 = document.getElementById('tech1');
+      const tech2 = document.getElementById('tech2');
+      const tech3 = document.getElementById('tech3');
+      const linkImg1 = document.getElementById('link-img-elm1') as HTMLImageElement;
+      const gitImg1 = document.getElementById('git-img-elm1') as HTMLImageElement;
+      const linkImg2 = document.getElementById('link-img-elm2') as HTMLImageElement;
+      const gitImg2 = document.getElementById('git-img-elm2') as HTMLImageElement;
+      const linkImg3 = document.getElementById('link-img-elm3') as HTMLImageElement;
+      const gitImg3 = document.getElementById('git-img-elm3') as HTMLImageElement;
+
+      projectTitle!.classList.remove('projects-title-dark');
+      project1!.classList.remove('project-dark');
+      project2!.classList.remove('project-dark');
+      project3!.classList.remove('project-dark');
+      pTitle1!.classList.remove('project-title-dark');
+      pTitle2!.classList.remove('project-title-dark');
+      pTitle3!.classList.remove('project-title-dark');
+      pDesc1!.classList.remove('project-desc-trs-dark');
+      pDesc2!.classList.remove('project-desc-dark');
+      pDesc3!.classList.remove('project-desc-dark');
+      tech1!.classList.remove('technologies-dark-trs');
+      tech2!.classList.remove('technologies-dark');
+      tech3!.classList.remove('technologies-dark');
+
+      projectTitle!.classList.add('projects-title-light');
+      project1!.classList.add('project-light');
+      project2!.classList.add('project-light');
+      project3!.classList.add('project-light');
+      pTitle1!.classList.add('project-title-light');
+      pTitle2!.classList.add('project-title-light');
+      pTitle3!.classList.add('project-title-light');
+      pDesc1!.classList.add('project-desc-trs-light');
+      pDesc2!.classList.add('project-desc-light');
+      pDesc3!.classList.add('project-desc-light');
+      tech1!.classList.add('technologies-light-trs');
+      tech2!.classList.add('technologies-light');
+      tech3!.classList.add('technologies-light');
+      linkImg1!.src = '../assets/img/light-icons/link-icon-light.png';
+      gitImg1!.src = '../assets/img/light-icons/github-icon-light.png';
+      linkImg2!.src = '../assets/img/light-icons/link-icon-light.png';
+      gitImg2!.src = '../assets/img/light-icons/github-icon-light.png';
+      linkImg3!.src = '../assets/img/light-icons/link-icon-light.png';
+      gitImg3!.src = '../assets/img/light-icons/github-icon-light.png';
+
+
+      /* Education */
+      const educationTitle = document.getElementById('education-title');
+      const schoolBox = document.getElementById('school-box');
+      const schoolTitle = document.getElementById('s-title');
+      const dateTitle = document.getElementById('d-title');
+      const location = document.getElementById('location');
+      const degree = document.getElementById('degree');
+
+      educationTitle!.classList.remove('education-title-dark');
+      schoolBox!.classList.remove('school-dark');
+      schoolTitle!.classList.remove('school-title-dark');
+      dateTitle!.classList.remove('date-dark');
+      location!.classList.remove('location-dark');
+      degree!.classList.remove('degree-dark');
+
+      educationTitle!.classList.add('education-title-light');
+      schoolBox!.classList.add('school-light');
+      schoolTitle!.classList.add('school-title-light');
+      dateTitle!.classList.add('date-light');
+      location!.classList.add('location-light');
+      degree!.classList.add('degree-light');
+
+      this.lightMode = bool;
     }
   }
 
