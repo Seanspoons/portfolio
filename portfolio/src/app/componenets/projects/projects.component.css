@@ -120,7 +120,7 @@
 }
 
 .projects-title-light {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 400;
     padding-left: 8vw;
     padding-right: 8vw;
@@ -176,7 +176,7 @@
 }
 
 .projects-title-dark {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 400;
     padding-left: 8vw;
     padding-right: 8vw;
@@ -226,6 +226,13 @@
     .project-dark {
         width: 20rem;
         height: 33rem;
+    }
+
+    .projects-title-light {
+        font-size: 2rem;
+    }
+    .projects-title-dark {
+        font-size: 2rem;
     }
 
     .project-title-light {

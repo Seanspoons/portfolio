@@ -5,6 +5,7 @@ import { HeaderComponent } from './componenets/header/header.component';
 import { InfoComponent } from './componenets/info/info.component';
 import { ProjectsComponent } from './componenets/projects/projects.component';
 import { EducationComponent } from './componenets/education/education.component';
+import { FooterComponent } from './componenets/footer/footer.component';
 import { ScrollService } from './services/scroll.service';
 
 @Component({
@@ -15,7 +16,8 @@ import { ScrollService } from './services/scroll.service';
       HeaderComponent,
       InfoComponent,
       ProjectsComponent,
-      EducationComponent
+      EducationComponent,
+      FooterComponent
     ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

@@ -9,4 +9,12 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+  onEmailClick(): void {
+
+  }
+
+  onLinkedInClick(): void {
+    const linkedInURL = 'https://www.linkedin.com/in/sean-wotherspoon-a085122a4/';
+    window.open(linkedInURL, '_blank');
+  }
 }

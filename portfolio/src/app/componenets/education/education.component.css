@@ -1,7 +1,6 @@
 .education-container {
     display: flex;
     flex-direction: column;
-    padding-bottom: 2rem;
 }
 
 .education-row {
@@ -57,7 +56,7 @@
 }
 
 .education-title-light {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 400;
     padding-left: 8vw;
     padding-right: 8vw;
@@ -107,7 +106,7 @@
 }
 
 .education-title-dark {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 400;
     padding-left: 8vw;
     padding-right: 8vw;
@@ -151,6 +150,13 @@
     .school-dark {
         width: 64rem;
         height: 22rem;
+    }
+
+    .education-title-light {
+        font-size: 2rem;
+    }
+    .education-title-dark {
+        font-size: 2rem;
     }
 
     .school-title-light {
