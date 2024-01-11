@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './componenets/header/header.component';
@@ -7,6 +7,7 @@ import { ProjectsComponent } from './componenets/projects/projects.component';
 import { EducationComponent } from './componenets/education/education.component';
 import { FooterComponent } from './componenets/footer/footer.component';
 import { ScrollService } from './services/scroll.service';
+import { ResizeService } from './services/resize.service';
 
 @Component({
   selector: 'app-root',
@@ -25,12 +26,13 @@ import { ScrollService } from './services/scroll.service';
 export class AppComponent {
   title = 'portfolio';
 
-  constructor(private scrollService: ScrollService) {}
+  constructor(private scrollService: ScrollService, private resizeService: ResizeService) {}
 
   ngOnInit() {
     this.scrollService.scroll$.subscribe((sectionId) => {
       this.scrollToSection(sectionId);
     });
+    this.setDynamicText();
   }
 
   scrollToSection(sectionId: string) {
@@ -57,4 +59,18 @@ export class AppComponent {
     }
   }
 
+  @HostListener('window:resize', ['$event'])
+  onResize(event: Event): void {
+    this.setDynamicText();
+  }
+
+  private setDynamicText(): void {
+    if (window.innerWidth <= 540) {
+      this.resizeService.dynamicText = 'SW';
+      this.resizeService.setNameText();
+    } else {
+      this.resizeService.dynamicText = 'Sean Wotherspoon';
+      this.resizeService.setNameText();
+    }
+  }
 }

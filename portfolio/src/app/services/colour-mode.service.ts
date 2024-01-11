@@ -93,10 +93,10 @@ export class ColourModeService {
       pTitle1!.classList.remove('project-title-light');
       pTitle2!.classList.remove('project-title-light');
       pTitle3!.classList.remove('project-title-light');
-      pDesc1!.classList.remove('project-desc-trs-light');
+      pDesc1!.classList.remove('project-desc-light');
       pDesc2!.classList.remove('project-desc-light');
       pDesc3!.classList.remove('project-desc-light');
-      tech1!.classList.remove('technologies-light-trs');
+      tech1!.classList.remove('technologies-light');
       tech2!.classList.remove('technologies-light');
       tech3!.classList.remove('technologies-light');
 
@@ -107,10 +107,10 @@ export class ColourModeService {
       pTitle1!.classList.add('project-title-dark');
       pTitle2!.classList.add('project-title-dark');
       pTitle3!.classList.add('project-title-dark');
-      pDesc1!.classList.add('project-desc-trs-dark');
+      pDesc1!.classList.add('project-desc-dark');
       pDesc2!.classList.add('project-desc-dark');
       pDesc3!.classList.add('project-desc-dark');
-      tech1!.classList.add('technologies-dark-trs');
+      tech1!.classList.add('technologies-dark');
       tech2!.classList.add('technologies-dark');
       tech3!.classList.add('technologies-dark');
       linkImg1!.src = '../assets/img/dark-icons/link-icon-dark.png';
@@ -243,10 +243,10 @@ export class ColourModeService {
       pTitle1!.classList.remove('project-title-dark');
       pTitle2!.classList.remove('project-title-dark');
       pTitle3!.classList.remove('project-title-dark');
-      pDesc1!.classList.remove('project-desc-trs-dark');
+      pDesc1!.classList.remove('project-desc-dark');
       pDesc2!.classList.remove('project-desc-dark');
       pDesc3!.classList.remove('project-desc-dark');
-      tech1!.classList.remove('technologies-dark-trs');
+      tech1!.classList.remove('technologies-dark');
       tech2!.classList.remove('technologies-dark');
       tech3!.classList.remove('technologies-dark');
 
@@ -257,10 +257,10 @@ export class ColourModeService {
       pTitle1!.classList.add('project-title-light');
       pTitle2!.classList.add('project-title-light');
       pTitle3!.classList.add('project-title-light');
-      pDesc1!.classList.add('project-desc-trs-light');
+      pDesc1!.classList.add('project-desc-light');
       pDesc2!.classList.add('project-desc-light');
       pDesc3!.classList.add('project-desc-light');
-      tech1!.classList.add('technologies-light-trs');
+      tech1!.classList.add('technologies-light');
       tech2!.classList.add('technologies-light');
       tech3!.classList.add('technologies-light');
       linkImg1!.src = '../assets/img/light-icons/link-icon-light.png';

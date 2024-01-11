@@ -24,7 +24,7 @@
 .title-date {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 99%;
     height: 4rem;
 }
 
@@ -95,6 +95,7 @@
     height: 26rem;
     background-color: #222222;
     margin-left: 2rem;
+    margin-right: 2rem;
     border-radius: 20px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transition: transform 0.3s ease;
@@ -185,5 +186,166 @@
     }
     .degree-dark {
         font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .school-light {
+        width: 64rem;
+        height: 18rem;
+    }
+    .school-dark {
+        width: 64rem;
+        height: 18rem;
+    }
+
+    .education-title-light {
+        font-size: 2rem;
+    }
+    .education-title-dark {
+        font-size: 2rem;
+    }
+
+    .school-title-light {
+        font-size: 1.1rem;
+    }
+    .school-title-dark {
+        font-size: 1.1rem;
+    }
+
+    .date-light {
+        font-size: 1.1rem;
+    }
+    .date-dark {
+        font-size: 1.1rem;
+    }
+
+    .location-light {
+        font-size: 0.9rem;
+    }
+    .location-dark {
+        font-size: 0.9rem;
+    }
+
+    .degree-light {
+        font-size: 0.9rem;
+    }
+    .degree-dark {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .img-container {
+        height: 30%;
+    }
+    .description {
+        height: 70%;
+    }
+    
+    .school-light {
+        width: 64rem;
+        height: 18rem;
+    }
+    .school-dark {
+        width: 64rem;
+        height: 18rem;
+    }
+
+    .education-title-light {
+        font-size: 2rem;
+    }
+    .education-title-dark {
+        font-size: 2rem;
+    }
+
+    .school-title-light {
+        font-size: 1.1rem;
+    }
+    .school-title-dark {
+        font-size: 1.1rem;
+    }
+
+    .date-light {
+        font-size: 1.1rem;
+        margin-right: 1rem
+    }
+    .date-dark {
+        font-size: 1.1rem;
+        margin-right: 1rem;
+    }
+
+    .location-light {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
+    .location-dark {
+        font-size: 0.9rem;
+    }
+
+    .degree-light {
+        font-size: 0.9rem;
+    }
+    .degree-dark {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 311px) {
+
+    .img-container {
+        height: 30%;
+    }
+    .description {
+        height: 70%;
+    }
+    
+    .school-light {
+        width: 64rem;
+        height: 18rem;
+    }
+    .school-dark {
+        width: 64rem;
+        height: 18rem;
+    }
+
+    .education-title-light {
+        font-size: 2rem;
+    }
+    .education-title-dark {
+        font-size: 2rem;
+    }
+
+    .school-title-light {
+        font-size: 1.1rem;
+    }
+    .school-title-dark {
+        font-size: 1.1rem;
+    }
+
+    .date-light {
+        font-size: 1.1rem;
+        margin-right: 1rem
+    }
+    .date-dark {
+        font-size: 1.1rem;
+        margin-right: 1rem;
+    }
+
+    .location-light {
+        font-size: 0.9rem;
+        margin-top: 2rem;
+    }
+    .location-dark {
+        font-size: 0.9rem;
+    }
+
+    .degree-light {
+        font-size: 0.9rem;
+    }
+    .degree-dark {
+        font-size: 0.9rem;
     }
 }

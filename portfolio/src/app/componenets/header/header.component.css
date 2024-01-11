@@ -118,6 +118,10 @@ header {
     cursor: pointer;
 }
 
+.projects-light:active {
+    color: black;
+}
+
 .education-light {
     color: black;
     font-size: 1.5rem;
@@ -127,6 +131,10 @@ header {
 .education-light:hover {
     color: #919191;
     cursor: pointer;
+}
+
+.education-light:active {
+    color: black;
 }
 
 .mode-container-light {
@@ -151,6 +159,14 @@ header {
     font-size: 2rem;
 }
 
+.name-text-dark:hover {
+    display: inline-block;
+    color: transparent;
+    background: linear-gradient(180deg, #919191 34.38%, rgba(0, 0, 0, 0) 100%);
+    background-clip: text;
+    cursor: pointer;
+}
+
 .projects-dark {
     color: white;
     font-size: 1.5rem;
@@ -160,6 +176,11 @@ header {
 
 .projects-dark:hover {
     color: #919191;
+    cursor: pointer;
+}
+
+.projects-dark:active {
+    color: white;
 }
 
 .education-dark {
@@ -170,6 +191,126 @@ header {
 }
 
 .education-dark:hover {
-    color: #919191
+    color: #919191;
+    cursor: pointer;
+
+}
+
+.education-dark:active {
+    color: white;
+
+}
+
+@media only screen and (max-width: 680px) {
+
+    .name-text-light {
+        font-size: 1.5rem;
+    }
+    .name-text-dark {
+        font-size: 1.5rem;
+    }
+
+    .projects-light {
+        font-size: 1.3rem;
+    }
+    .projects-dark {
+        font-size: 1.3rem;
+    }
+
+    .education-light {
+        font-size: 1.3rem;
+    }
+    .education-dark {
+        font-size: 1.3rem;
+    }
+
+    .mode-container-light {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .mode-container-dark {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .mode-icon {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 530px) {
+
+    .name-text-light {
+        font-size: 1.5rem;
+    }
+    .name-text-dark {
+        font-size: 1.5rem;
+    }
+
+    .projects-light {
+        font-size: 1.3rem;
+    }
+    .projects-dark {
+        font-size: 1.3rem;
+    }
+
+    .education-light {
+        font-size: 1.3rem;
+    }
+    .education-dark {
+        font-size: 1.3rem;
+    }
+
+    .mode-container-light {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .mode-container-dark {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .mode-icon {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 310px) {
+
+    .name-text-light {
+        font-size: 1.4rem;
+    }
+    .name-text-dark {
+        font-size: 1.4rem;
+    }
+
+    .projects-light {
+        font-size: 1.2rem;
+    }
+    .projects-dark {
+        font-size: 1.2rem;
+    }
+
+    .education-light {
+        font-size: 1.2rem;
+    }
+    .education-dark {
+        font-size: 1.2rem;
+    }
+
+    .mode-container-light {
+        height: 1.4rem;
+        width: 1.4rem;
+    }
+    .mode-container-dark {
+        height: 1.4rem;
+        width: 1.4rem;
+    }
+    .mode-icon {
+        height: 1.4rem;
+        width: 1.4rem;
+    }
 
 }

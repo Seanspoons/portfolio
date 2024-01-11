@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ScrollService } from '../../services/scroll.service';
 import { ColourModeService } from '../../services/colour-mode.service';
+import { ResizeService } from '../../services/resize.service';
 
 @Component({
   selector: 'app-header',
@@ -13,7 +14,7 @@ import { ColourModeService } from '../../services/colour-mode.service';
 export class HeaderComponent {
   lightMode: boolean;
 
-  constructor(private scrollService: ScrollService, private colourModeService: ColourModeService) {
+  constructor(private scrollService: ScrollService, private colourModeService: ColourModeService, private resizeService: ResizeService) {
     this.lightMode = true;
   }
 
@@ -33,5 +34,4 @@ export class HeaderComponent {
   scrollToEducation() {
     this.scrollService.triggerScroll('projects');
   }
-
 }

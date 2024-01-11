@@ -33,6 +33,8 @@
     height: 50%;
     padding-left: 1rem;
     padding-right: 1rem;
+    /*background-color: aqua;*/
+    padding-bottom: 1.5rem;
 }
 
 .links {
@@ -133,12 +135,10 @@
 }
 
 .project-desc-trs-light {
-    margin-top: 2rem;
     font-size: 1.1rem;
 }
 
 .project-desc-light {
-    margin-top: -0.2rem;
     font-size: 1.1rem;
 }
 
@@ -146,14 +146,12 @@
     font-weight: 700;
     font-style: italic;
     font-size: 1.1rem;
-    margin-top: 6rem;
 }
 
 .technologies-light-trs {
     font-weight: 700;
     font-style: italic;
     font-size: 1.1rem;
-    margin-top: 5.3rem;
 }
 
 /* Dark Mode */
@@ -191,13 +189,11 @@
 }
 
 .project-desc-trs-dark {
-    margin-top: 2rem;
     font-size: 1.1rem;
     color: white;
 }
 
 .project-desc-dark {
-    margin-top: -0.2rem;
     font-size: 1.1rem;
     color: white;
 }
@@ -206,7 +202,6 @@
     font-weight: 700;
     font-style: italic;
     font-size: 1.1rem;
-    margin-top: 6rem;
     color: white;
 }
 
@@ -214,7 +209,6 @@
     font-weight: 700;
     font-style: italic;
     font-size: 1.1rem;
-    margin-top: 5.3rem;
     color: white;
 }
 
@@ -243,36 +237,170 @@
     }
 
     .project-desc-trs-light {
-        margin-top: 1.4rem;
         font-size: 1rem;
     }
     .project-desc-trs-dark {
-        margin-top: 1.4rem;
+
         font-size: 1rem;
     }
     .project-desc-light {
-        margin-top: -0.4rem;
         font-size: 1rem;
     }
     .project-desc-dark {
-        margin-top: -0.4rem;
         font-size: 1rem;
     }
 
     .technologies-light-trs {
         font-size: 1rem;
-        margin-top: 3rem;
     }
     .technologies-dark-trs {
         font-size: 1rem;
-        margin-top: 3rem;
     }
     .technologies-light {
         font-size: 1rem;
-        margin-top: 3.4rem;
     }
     .technologies-dark {
         font-size: 1rem;
-        margin-top: 3.4rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .project-row {
+        flex-direction: column;
+    }
+
+    .project-light {
+        width: 20rem;
+        height: 33rem;
+        margin-bottom: 2rem;
+        align-self: center;
+    }
+    .project-dark {
+        width: 20rem;
+        height: 33rem;
+        margin-bottom: 2rem;
+        align-self: center;
+    }
+    #trs-project {
+        margin-right: 2rem;
+    }
+    #yelp-project {
+        margin-right: 2rem;
+    }
+    #n-puzzle-solver-project {
+        margin-bottom: 0rem;
+        margin-right: 2rem;
+    }
+
+    .projects-title-light {
+        font-size: 2rem;
+    }
+    .projects-title-dark {
+        font-size: 2rem;
+    }
+
+    .project-title-light {
+        font-size: 1.3rem;
+    }
+    .project-title-dark {
+        font-size: 1.3rem;
+    }
+
+    .project-desc-trs-light {
+        font-size: 1rem;
+    }
+    .project-desc-trs-dark {
+
+        font-size: 1rem;
+    }
+    .project-desc-light {
+        font-size: 1rem;
+    }
+    .project-desc-dark {
+        font-size: 1rem;
+    }
+
+    .technologies-light-trs {
+        font-size: 1rem;
+    }
+    .technologies-dark-trs {
+        font-size: 1rem;
+    }
+    .technologies-light {
+        font-size: 1rem;
+    }
+    .technologies-dark {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .project-row {
+        flex-direction: column;
+    }
+
+    .project-light {
+        width: 16.9rem;
+        height: 28rem;
+        margin-bottom: 2rem;
+        align-self: center;
+    }
+    .project-dark {
+        width: 16.9rem;
+        height: 28rem;
+        margin-bottom: 2rem;
+        align-self: center;
+    }
+    #trs-project {
+        margin-right: 2rem;
+    }
+    #yelp-project {
+        margin-right: 2rem;
+    }
+    #n-puzzle-solver-project {
+        margin-bottom: 0rem;
+        margin-right: 2rem;
+    }
+
+    .projects-title-light {
+        font-size: 2rem;
+    }
+    .projects-title-dark {
+        font-size: 2rem;
+    }
+
+    .project-title-light {
+        font-size: 1.2rem;
+    }
+    .project-title-dark {
+        font-size: 1.2rem;
+    }
+
+    .project-desc-trs-light {
+        font-size: 0.9rem;
+    }
+    .project-desc-trs-dark {
+
+        font-size: 0.9rem;
+    }
+    .project-desc-light {
+        font-size: 0.9rem;
+    }
+    .project-desc-dark {
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+    }
+
+    .technologies-light-trs {
+        font-size: 0.9rem;
+    }
+    .technologies-dark-trs {
+        font-size: 0.9rem;
+    }
+    .technologies-light {
+        font-size: 0.9rem;
+    }
+    .technologies-dark {
+        font-size: 0.9rem;
     }
 }
