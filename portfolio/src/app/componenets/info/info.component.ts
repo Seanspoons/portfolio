@@ -26,7 +26,7 @@ export class InfoComponent {
   }
 
   onLinkedInClick(): void {
-    const linkedInURL = 'https://www.linkedin.com/in/sean-wotherspoon-a085122a4/';
+    const linkedInURL = 'https://www.linkedin.com/in/sean-wotherspoon/';
     window.open(linkedInURL, '_blank');
   }
 
