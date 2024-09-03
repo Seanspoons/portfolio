@@ -134,6 +134,10 @@
     color: #919191;
 }
 
+#link-img-elm1 {
+    margin-right: 0;
+}
+
 .project-light:hover {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transform: translateY(-10px);
