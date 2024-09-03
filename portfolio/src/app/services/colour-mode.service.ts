@@ -87,16 +87,16 @@ export class ColourModeService {
       const tech3 = document.getElementById('tech3');
       const tech4 = document.getElementById('tech4');
       const tech5 = document.getElementById('tech5');
-      const linkImg1 = document.getElementById('link-img-elm1') as HTMLImageElement;
-      const gitImg1 = document.getElementById('git-img-elm1') as HTMLImageElement;
-      const linkImg2 = document.getElementById('link-img-elm2') as HTMLImageElement;
-      const gitImg2 = document.getElementById('git-img-elm2') as HTMLImageElement;
-      const linkImg3 = document.getElementById('link-img-elm3') as HTMLImageElement;
-      const gitImg3 = document.getElementById('git-img-elm3') as HTMLImageElement;
-      const linkImg4 = document.getElementById('link-img-elm4') as HTMLImageElement;
-      const gitImg4 = document.getElementById('git-img-elm4') as HTMLImageElement;
-      const linkImg5 = document.getElementById('link-img-elm5') as HTMLImageElement;
-      const gitImg5= document.getElementById('git-img-elm5') as HTMLImageElement;
+      const linkImg1 = document.getElementById('link-img-elm1');
+      //const gitImg1 = document.getElementById('git-img-elm1');
+      //const linkImg2 = document.getElementById('link-img-elm2');
+      const gitImg2 = document.getElementById('git-img-elm2');
+      //const linkImg3 = document.getElementById('link-img-elm3');
+      const gitImg3 = document.getElementById('git-img-elm3');
+      //const linkImg4 = document.getElementById('link-img-elm4');
+      const gitImg4 = document.getElementById('git-img-elm4');
+      //const linkImg5 = document.getElementById('link-img-elm5');
+      const gitImg5= document.getElementById('git-img-elm5');
 
       projectTitle!.classList.remove('projects-title-light');
       project1!.classList.remove('project-light');
@@ -119,6 +119,16 @@ export class ColourModeService {
       tech3!.classList.remove('technologies-light');
       tech4!.classList.remove('technologies-light');
       tech5!.classList.remove('technologies-light');
+      linkImg1!.classList.remove('project-link-light');
+      //gitImg1!.classList.remove('project-link-light');
+      //linkImg2!.classList.remove('project-link-light');
+      gitImg2!.classList.remove('project-link-light');
+      //linkImg3!.classList.remove('project-link-light');
+      gitImg3!.classList.remove('project-link-light');
+      //linkImg4!.classList.remove('project-link-light');
+      gitImg4!.classList.remove('project-link-light');
+      //linkImg5!.classList.remove('project-link-light');
+      gitImg5!.classList.remove('project-link-light');
 
       projectTitle!.classList.add('projects-title-dark');
       project1!.classList.add('project-dark');
@@ -141,16 +151,16 @@ export class ColourModeService {
       tech3!.classList.add('technologies-dark');
       tech4!.classList.add('technologies-dark');
       tech5!.classList.add('technologies-dark');
-      linkImg1!.src = '../assets/img/dark-icons/link-icon-dark.png';
-      gitImg1!.src = '../assets/img/dark-icons/github-icon-dark.png';
-      linkImg2!.src = '../assets/img/dark-icons/link-icon-dark.png';
-      gitImg2!.src = '../assets/img/dark-icons/github-icon-dark.png';
-      linkImg3!.src = '../assets/img/dark-icons/link-icon-dark.png';
-      gitImg3!.src = '../assets/img/dark-icons/github-icon-dark.png';
-      linkImg4!.src = '../assets/img/dark-icons/link-icon-dark.png';
-      gitImg4!.src = '../assets/img/dark-icons/github-icon-dark.png';
-      linkImg5!.src = '../assets/img/dark-icons/link-icon-dark.png';
-      gitImg5!.src = '../assets/img/dark-icons/github-icon-dark.png';
+      linkImg1!.classList.add('project-link-dark');
+      //gitImg1!.classList.add('project-link-dark');
+      //linkImg2!.classList.add('project-link-dark');
+      gitImg2!.classList.add('project-link-dark');
+      //linkImg3!.classList.add('project-link-dark');
+      gitImg3!.classList.add('project-link-dark');
+      //linkImg4!.classList.add('project-link-dark');
+      gitImg4!.classList.add('project-link-dark');
+      //linkImg5!.classList.add('project-link-dark');
+      gitImg5!.classList.add('project-link-dark');
 
 
       /* Education */
@@ -269,16 +279,16 @@ export class ColourModeService {
       const tech3 = document.getElementById('tech3');
       const tech4 = document.getElementById('tech4');
       const tech5 = document.getElementById('tech5');
-      const linkImg1 = document.getElementById('link-img-elm1') as HTMLImageElement;
-      const gitImg1 = document.getElementById('git-img-elm1') as HTMLImageElement;
-      const linkImg2 = document.getElementById('link-img-elm2') as HTMLImageElement;
-      const gitImg2 = document.getElementById('git-img-elm2') as HTMLImageElement;
-      const linkImg3 = document.getElementById('link-img-elm3') as HTMLImageElement;
-      const gitImg3 = document.getElementById('git-img-elm3') as HTMLImageElement;
-      const linkImg4 = document.getElementById('link-img-elm4') as HTMLImageElement;
-      const gitImg4 = document.getElementById('git-img-elm4') as HTMLImageElement;
-      const linkImg5 = document.getElementById('link-img-elm5') as HTMLImageElement;
-      const gitImg5 = document.getElementById('git-img-elm5') as HTMLImageElement;
+      const linkImg1 = document.getElementById('link-img-elm1');
+      //const gitImg1 = document.getElementById('git-img-elm1');
+      //const linkImg2 = document.getElementById('link-img-elm2');
+      const gitImg2 = document.getElementById('git-img-elm2');
+      //const linkImg3 = document.getElementById('link-img-elm3');
+      const gitImg3 = document.getElementById('git-img-elm3');
+      //const linkImg4 = document.getElementById('link-img-elm4');
+      const gitImg4 = document.getElementById('git-img-elm4');
+      //const linkImg5 = document.getElementById('link-img-elm5');
+      const gitImg5 = document.getElementById('git-img-elm5');
 
       projectTitle!.classList.remove('projects-title-dark');
       project1!.classList.remove('project-dark');
@@ -301,6 +311,16 @@ export class ColourModeService {
       tech3!.classList.remove('technologies-dark');
       tech4!.classList.remove('technologies-dark');
       tech5!.classList.remove('technologies-dark');
+      linkImg1!.classList.remove('project-link-dark');
+      //gitImg1!.classList.remove('project-link-dark');
+      //linkImg2!.classList.remove('project-link-dark');
+      gitImg2!.classList.remove('project-link-dark');
+      //linkImg3!.classList.remove('project-link-dark');
+      gitImg3!.classList.remove('project-link-dark');
+      //linkImg4!.classList.remove('project-link-dark');
+      gitImg4!.classList.remove('project-link-dark');
+      //linkImg5!.classList.remove('project-link-dark');
+      gitImg5!.classList.remove('project-link-dark');
 
       projectTitle!.classList.add('projects-title-light');
       project1!.classList.add('project-light');
@@ -323,16 +343,16 @@ export class ColourModeService {
       tech3!.classList.add('technologies-light');
       tech4!.classList.add('technologies-light');
       tech5!.classList.add('technologies-light');
-      linkImg1!.src = '../assets/img/light-icons/link-icon-light.png';
-      gitImg1!.src = '../assets/img/light-icons/github-icon-light.png';
-      linkImg2!.src = '../assets/img/light-icons/link-icon-light.png';
-      gitImg2!.src = '../assets/img/light-icons/github-icon-light.png';
-      linkImg3!.src = '../assets/img/light-icons/link-icon-light.png';
-      gitImg3!.src = '../assets/img/light-icons/github-icon-light.png';
-      linkImg4!.src = '../assets/img/light-icons/link-icon-light.png';
-      gitImg4!.src = '../assets/img/light-icons/github-icon-light.png';
-      linkImg5!.src = '../assets/img/light-icons/link-icon-light.png';
-      gitImg5!.src = '../assets/img/light-icons/github-icon-light.png';
+      linkImg1!.classList.add('project-link-light');
+      //gitImg1!.classList.add('project-link-light');
+      //linkImg2!.classList.add('project-link-light');
+      gitImg2!.classList.add('project-link-light');
+      //linkImg3!.classList.add('project-link-light');
+      gitImg3!.classList.add('project-link-light');
+      //linkImg4!.classList.add('project-link-light');
+      gitImg4!.classList.add('project-link-light');
+      //linkImg5!.classList.add('project-link-light');
+      gitImg5!.classList.add('project-link-light');
 
 
       /* Education */

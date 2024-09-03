@@ -7,8 +7,12 @@
     overflow-x: hidden;
 }
 
+#header {
+    margin-bottom: 2rem;
+}
+
 #info {
-    
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 

@@ -15,7 +15,7 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .img-container {
@@ -26,12 +26,14 @@
 .img {
     width: 100%;
     height: 100%;
-    border-radius: 20px 20px 0 0;
+    border-radius: 12px 12px 0 0;
 }
 
 .title-links {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 4rem;
 }
@@ -48,15 +50,23 @@
 .links {
     display: flex;
     flex-direction: row;
-    justify-content: right;
     align-items: center;
-    width: 35%;
-    height: 100%;
+    width: auto;
+    height: auto;
 }
 
 .link-img {
     height: 2rem;
     width: 2rem;
+}
+
+.project-margin {
+    margin-right: 0.75rem;
+}
+
+.link-svg {
+    height: 22px;
+    width: 22px;
 }
 
 .github-link {
@@ -80,14 +90,6 @@
     display: flex;
 }
 
-.project-link {
-    display: flex;
-}
-
-.project-link-hover {
-    display: none;
-}
-
 .link:hover .project-link {
     display: none;
 }
@@ -106,8 +108,8 @@
     cursor: pointer;
 }
 
-#n-puzzle-solver-project {
-    margin-right: 2rem; 
+#mealpository-project {
+    margin-bottom: 2rem;
 }
 
 /* Light Mode */
@@ -116,16 +118,24 @@
     display: flex;
     flex-direction: column;
     width: 24rem;
-    height: 40rem;
+    height: 45rem;
     background-color: #F3F3F3;
-    margin-left: 2rem;
-    border-radius: 20px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
     transition: transform 0.3s ease;
 }
 
+.project-link-light {
+    color: black;
+    cursor: pointer;
+}
+
+.project-link-light:hover {
+    color: #919191;
+}
+
 .project-light:hover {
-    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transform: translateY(-10px);
 }
 
@@ -170,10 +180,18 @@
     width: 24rem;
     height: 40rem;
     background-color: #222222;
-    margin-left: 2rem;
-    border-radius: 20px;
+    border-radius: 10px;
     /*box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);*/
     transition: transform 0.3s ease;
+}
+
+.project-link-dark {
+    color: white;
+    cursor: pointer;
+}
+
+.project-link-dark:hover {
+    color: #919191;
 }
 
 .project-dark:hover {
@@ -220,14 +238,50 @@
     color: white;
 }
 
-@media only screen and (max-width: 1550px) {
+#typeaid-project {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+}
+
+#yelp-project {
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+}
+
+#trs-project {
+    margin-left: 0rem;
+}
+
+@media only screen and (min-width: 1101px) {
     .project-light {
         width: 20rem;
-        height: 33rem;
+        height: 36rem;
     }
     .project-dark {
         width: 20rem;
-        height: 33rem;
+        height: 36rem;
+    }
+
+    #mealpository-project {
+        margin-bottom: 0rem;
+    }
+
+    #typeaid-project {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 0rem;
+    }
+
+    #yelp-project {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    #trs-project {
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .projects-title-light {
@@ -279,25 +333,13 @@
 
     .project-light {
         width: 20rem;
-        height: 33rem;
-        margin-bottom: 2rem;
+        height: 36rem;
         align-self: center;
     }
     .project-dark {
         width: 20rem;
-        height: 33rem;
-        margin-bottom: 2rem;
+        height: 36rem;
         align-self: center;
-    }
-    #trs-project {
-        margin-right: 2rem;
-    }
-    #yelp-project {
-        margin-right: 2rem;
-    }
-    #n-puzzle-solver-project {
-        margin-bottom: 0rem;
-        margin-right: 2rem;
     }
 
     .projects-title-light {
@@ -349,25 +391,13 @@
 
     .project-light {
         width: 16.9rem;
-        height: 28rem;
-        margin-bottom: 2rem;
+        height: 32rem;
         align-self: center;
     }
     .project-dark {
         width: 16.9rem;
-        height: 28rem;
-        margin-bottom: 2rem;
+        height: 32rem;
         align-self: center;
-    }
-    #trs-project {
-        margin-right: 2rem;
-    }
-    #yelp-project {
-        margin-right: 2rem;
-    }
-    #n-puzzle-solver-project {
-        margin-bottom: 0rem;
-        margin-right: 2rem;
     }
 
     .projects-title-light {

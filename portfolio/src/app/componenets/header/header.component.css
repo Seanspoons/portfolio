@@ -24,11 +24,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-.mode-container-light {
-    width: 2rem;
-    height: 2rem;
+    align-items: center;
 }
 
 .mode-container-light:hover #dark-mode-icon-container {
@@ -47,11 +43,6 @@ header {
     display: flex;
 }
 
-.mode-container-dark {
-    width: 2rem;
-    height: 2rem;
-}
-
 .mode-container-dark:hover {
     cursor: pointer;
 }
@@ -60,9 +51,19 @@ header {
     cursor: pointer;
 }
 
+.mode-container {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
 .mode-icon {
-    width: 2rem;
-    height: 2rem;
+    width: 22px;
+    height: 22px;
+}
+
+.mode-icon:hover {
+    color: #919191;
 }
 
 #light-mode-icon-container {
@@ -71,6 +72,21 @@ header {
 
 #light-mode-icon-container-hover {
     display: none;
+}
+.light-mode-button {
+    color: white;
+}
+
+.light-mode-button:hover {
+    color: #919191;
+}
+
+.dark-mode-button {
+    color: black;
+}
+
+.light-mode-button:hover {
+    color: #919191;
 }
 
 #dark-mode-icon-container {
@@ -201,7 +217,7 @@ header {
 
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (min-width: 531px) {
 
     .name-text-light {
         font-size: 1.5rem;
@@ -228,13 +244,15 @@ header {
         height: 1.5rem;
         width: 1.5rem;
     }
-    .mode-container-dark {
-        height: 1.5rem;
-        width: 1.5rem;
+    .mode-container {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
     }
+    
     .mode-icon {
-        height: 1.5rem;
-        width: 1.5rem;
+        width: 24px;
+        height: 24px;
     }
 
 }
@@ -266,13 +284,16 @@ header {
         height: 1.5rem;
         width: 1.5rem;
     }
-    .mode-container-dark {
-        height: 1.5rem;
-        width: 1.5rem;
+
+    .mode-container {
+        width: 24x;
+        height: 24px;
+        cursor: pointer;
     }
+    
     .mode-icon {
-        height: 1.5rem;
-        width: 1.5rem;
+        width: 24px;
+        height: 24px;
     }
 
 }
