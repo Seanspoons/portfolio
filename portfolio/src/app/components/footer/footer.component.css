@@ -23,7 +23,7 @@
 }
 
 .footer-title-light {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 400;
     padding-left: 8vw;
     padding-right: 8vw;
@@ -31,7 +31,7 @@
 }
 
 .contact-light {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .contact-light:hover {
@@ -46,7 +46,7 @@
 }
 
 .footer-title-dark {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 400;
     padding-left: 8vw;
     padding-right: 8vw;
@@ -55,27 +55,11 @@
 }
 
 .contact-dark {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
 }
 
 .contact-dark:hover {
     color: #919191;
     cursor: pointer;
-}
-
-@media only screen and (max-width: 1550px) {
-    .footer-title-light {
-        font-size: 2rem;
-    }
-    .footer-title-dark {
-        font-size: 2rem;
-    }
-
-    .contact-light {
-        font-size: 1.2rem;
-    }
-    .contact-dark {
-        font-size: 1.2rem;
-    }
 }

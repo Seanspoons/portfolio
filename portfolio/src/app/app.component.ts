@@ -1,13 +1,14 @@
 import { Component, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from './componenets/header/header.component';
-import { InfoComponent } from './componenets/info/info.component';
-import { ProjectsComponent } from './componenets/projects/projects.component';
-import { EducationComponent } from './componenets/education/education.component';
-import { FooterComponent } from './componenets/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { InfoComponent } from './components/info/info.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { EducationComponent } from './components/education/education.component';
+import { FooterComponent } from './components/footer/footer.component';
 import { ScrollService } from './services/scroll.service';
 import { ResizeService } from './services/resize.service';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 @Component({
   selector: 'app-root',
@@ -17,6 +18,7 @@ import { ResizeService } from './services/resize.service';
       HeaderComponent,
       InfoComponent,
       ProjectsComponent,
+      ExperienceComponent,
       EducationComponent,
       FooterComponent
     ],

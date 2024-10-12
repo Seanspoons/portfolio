@@ -163,6 +163,47 @@ export class ColourModeService {
       gitImg5!.classList.add('project-link-dark');
 
 
+      /* Experience */
+      const experienceTitle = document.getElementById('experience-title');
+      const jobBox1 = document.getElementById('job-box1');
+      const jobBox2 = document.getElementById('job-box2');
+      const jobTitle1 = document.getElementById('j-title1');
+      const jobTitle2 = document.getElementById('j-title2');
+      const jobEmployer1 = document.getElementById('j-employer1');
+      const jobEmployer2 = document.getElementById('j-employer2');
+      const jobTime1 = document.getElementById('j-time1');
+      const jobTime2 = document.getElementById('j-time2');
+      const jobContent1 = document.getElementById('j-content1');
+      const jobContent2 = document.getElementById('j-content2');
+      const jobImg2Container = document.getElementById('j-img2-container');
+
+      experienceTitle!.classList.remove('experience-title-light');
+      jobBox1!.classList.remove('job-light');
+      jobBox2!.classList.remove('job-light');
+      jobTitle1!.classList.remove('job-title-light');
+      jobTitle2!.classList.remove('job-title-light');
+      jobEmployer1!.classList.remove('job-employer-light');
+      jobEmployer2!.classList.remove('job-employer-light');
+      jobTime1!.classList.remove('job-time-light');
+      jobTime2!.classList.remove('job-time-light');
+      jobContent1!.classList.remove('job-content-light');
+      jobContent2!.classList.remove('job-content-light');
+      jobImg2Container!.classList.remove('job-img2-container-light');
+
+      experienceTitle!.classList.add('experience-title-dark');
+      jobBox1!.classList.add('job-dark');
+      jobBox2!.classList.add('job-dark');
+      jobTitle1!.classList.add('job-title-dark');
+      jobTitle2!.classList.add('job-title-dark');
+      jobEmployer1!.classList.add('job-employer-dark');
+      jobEmployer2!.classList.add('job-employer-dark');
+      jobTime1!.classList.add('job-time-dark');
+      jobTime2!.classList.add('job-time-dark');
+      jobContent1!.classList.add('job-content-dark');
+      jobContent2!.classList.add('job-content-dark');
+      jobImg2Container!.classList.add('job-img2-container-dark');
+
+
       /* Education */
       const educationTitle = document.getElementById('education-title');
       const schoolBox = document.getElementById('school-box');
@@ -353,6 +394,47 @@ export class ColourModeService {
       gitImg4!.classList.add('project-link-light');
       //linkImg5!.classList.add('project-link-light');
       gitImg5!.classList.add('project-link-light');
+
+
+      /* Experience */
+      const experienceTitle = document.getElementById('experience-title');
+      const jobBox1 = document.getElementById('job-box1');
+      const jobBox2 = document.getElementById('job-box2');
+      const jobTitle1 = document.getElementById('j-title1');
+      const jobTitle2 = document.getElementById('j-title2');
+      const jobEmployer1 = document.getElementById('j-employer1');
+      const jobEmployer2 = document.getElementById('j-employer2');
+      const jobTime1 = document.getElementById('j-time1');
+      const jobTime2 = document.getElementById('j-time2');
+      const jobContent1 = document.getElementById('j-content1');
+      const jobContent2 = document.getElementById('j-content2');
+      const jobImg2Container = document.getElementById('j-img2-container');
+
+      experienceTitle!.classList.remove('experience-title-dark');
+      jobBox1!.classList.remove('job-dark');
+      jobBox2!.classList.remove('job-dark');
+      jobTitle1!.classList.remove('job-title-dark');
+      jobTitle2!.classList.remove('job-title-dark');
+      jobEmployer1!.classList.remove('job-employer-dark');
+      jobEmployer2!.classList.remove('job-employer-dark');
+      jobTime1!.classList.remove('job-time-dark');
+      jobTime2!.classList.remove('job-time-dark');
+      jobContent1!.classList.remove('job-content-dark');
+      jobContent2!.classList.remove('job-content-dark');
+      jobImg2Container!.classList.remove('job-img2-container-dark');
+
+      experienceTitle!.classList.add('experience-title-light');
+      jobBox1!.classList.add('job-light');
+      jobBox2!.classList.add('job-light');
+      jobTitle1!.classList.add('job-title-light');
+      jobTitle2!.classList.add('job-title-light');
+      jobEmployer1!.classList.add('job-employer-light');
+      jobEmployer2!.classList.add('job-employer-light');
+      jobTime1!.classList.add('job-time-light');
+      jobTime2!.classList.add('job-time-light');
+      jobContent1!.classList.add('job-content-light');
+      jobContent2!.classList.add('job-content-light');
+      jobImg2Container!.classList.add('job-img2-container-light');
 
 
       /* Education */
